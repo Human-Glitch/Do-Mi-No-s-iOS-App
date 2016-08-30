@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF050D81D76244400EE29C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF050D71D76244400EE29C7 /* AppDelegate.swift */; };
+		CBF050DA1D76244400EE29C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF050D91D76244400EE29C7 /* ViewController.swift */; };
+		CBF050DD1D76244400EE29C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF050DB1D76244400EE29C7 /* Main.storyboard */; };
+		CBF050DF1D76244400EE29C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF050DE1D76244400EE29C7 /* Assets.xcassets */; };
+		CBF050E21D76244400EE29C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF050E01D76244400EE29C7 /* LaunchScreen.storyboard */; };
+		CBF050ED1D76244500EE29C7 /* Weekly_02_Buss_KodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF050EC1D76244500EE29C7 /* Weekly_02_Buss_KodyTests.swift */; };
+		CBF050F81D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF050F71D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF050E91D76244400EE29C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF050CC1D76244300EE29C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF050D31D76244400EE29C7;
+			remoteInfo = Weekly_02_Buss_Kody;
+		};
+		CBF050F41D76244500EE29C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF050CC1D76244300EE29C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF050D31D76244400EE29C7;
+			remoteInfo = Weekly_02_Buss_Kody;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF050D41D76244400EE29C7 /* Weekly_02_Buss_Kody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weekly_02_Buss_Kody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF050D71D76244400EE29C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF050D91D76244400EE29C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF050DC1D76244400EE29C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF050DE1D76244400EE29C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF050E11D76244400EE29C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF050E31D76244400EE29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF050E81D76244400EE29C7 /* Weekly_02_Buss_KodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weekly_02_Buss_KodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF050EC1D76244500EE29C7 /* Weekly_02_Buss_KodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_02_Buss_KodyTests.swift; sourceTree = "<group>"; };
+		CBF050EE1D76244500EE29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF050F31D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weekly_02_Buss_KodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF050F71D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_02_Buss_KodyUITests.swift; sourceTree = "<group>"; };
+		CBF050F91D76244500EE29C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF050D11D76244400EE29C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050E51D76244400EE29C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050F01D76244500EE29C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF050CB1D76244300EE29C7 = {
+			isa = PBXGroup;
+			children = (
+				CBF050D61D76244400EE29C7 /* Weekly_02_Buss_Kody */,
+				CBF050EB1D76244500EE29C7 /* Weekly_02_Buss_KodyTests */,
+				CBF050F61D76244500EE29C7 /* Weekly_02_Buss_KodyUITests */,
+				CBF050D51D76244400EE29C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF050D51D76244400EE29C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF050D41D76244400EE29C7 /* Weekly_02_Buss_Kody.app */,
+				CBF050E81D76244400EE29C7 /* Weekly_02_Buss_KodyTests.xctest */,
+				CBF050F31D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF050D61D76244400EE29C7 /* Weekly_02_Buss_Kody */ = {
+			isa = PBXGroup;
+			children = (
+				CBF050D71D76244400EE29C7 /* AppDelegate.swift */,
+				CBF050D91D76244400EE29C7 /* ViewController.swift */,
+				CBF050DB1D76244400EE29C7 /* Main.storyboard */,
+				CBF050DE1D76244400EE29C7 /* Assets.xcassets */,
+				CBF050E01D76244400EE29C7 /* LaunchScreen.storyboard */,
+				CBF050E31D76244400EE29C7 /* Info.plist */,
+			);
+			path = Weekly_02_Buss_Kody;
+			sourceTree = "<group>";
+		};
+		CBF050EB1D76244500EE29C7 /* Weekly_02_Buss_KodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF050EC1D76244500EE29C7 /* Weekly_02_Buss_KodyTests.swift */,
+				CBF050EE1D76244500EE29C7 /* Info.plist */,
+			);
+			path = Weekly_02_Buss_KodyTests;
+			sourceTree = "<group>";
+		};
+		CBF050F61D76244500EE29C7 /* Weekly_02_Buss_KodyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF050F71D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.swift */,
+				CBF050F91D76244500EE29C7 /* Info.plist */,
+			);
+			path = Weekly_02_Buss_KodyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF050D31D76244400EE29C7 /* Weekly_02_Buss_Kody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF050FC1D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_Kody" */;
+			buildPhases = (
+				CBF050D01D76244400EE29C7 /* Sources */,
+				CBF050D11D76244400EE29C7 /* Frameworks */,
+				CBF050D21D76244400EE29C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weekly_02_Buss_Kody;
+			productName = Weekly_02_Buss_Kody;
+			productReference = CBF050D41D76244400EE29C7 /* Weekly_02_Buss_Kody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF050E71D76244400EE29C7 /* Weekly_02_Buss_KodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF050FF1D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_KodyTests" */;
+			buildPhases = (
+				CBF050E41D76244400EE29C7 /* Sources */,
+				CBF050E51D76244400EE29C7 /* Frameworks */,
+				CBF050E61D76244400EE29C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF050EA1D76244400EE29C7 /* PBXTargetDependency */,
+			);
+			name = Weekly_02_Buss_KodyTests;
+			productName = Weekly_02_Buss_KodyTests;
+			productReference = CBF050E81D76244400EE29C7 /* Weekly_02_Buss_KodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF050F21D76244500EE29C7 /* Weekly_02_Buss_KodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF051021D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_KodyUITests" */;
+			buildPhases = (
+				CBF050EF1D76244500EE29C7 /* Sources */,
+				CBF050F01D76244500EE29C7 /* Frameworks */,
+				CBF050F11D76244500EE29C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF050F51D76244500EE29C7 /* PBXTargetDependency */,
+			);
+			name = Weekly_02_Buss_KodyUITests;
+			productName = Weekly_02_Buss_KodyUITests;
+			productReference = CBF050F31D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF050CC1D76244300EE29C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kody Buss";
+				TargetAttributes = {
+					CBF050D31D76244400EE29C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CBF050E71D76244400EE29C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBF050D31D76244400EE29C7;
+					};
+					CBF050F21D76244500EE29C7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBF050D31D76244400EE29C7;
+					};
+				};
+			};
+			buildConfigurationList = CBF050CF1D76244300EE29C7 /* Build configuration list for PBXProject "Weekly_02_Buss_Kody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF050CB1D76244300EE29C7;
+			productRefGroup = CBF050D51D76244400EE29C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF050D31D76244400EE29C7 /* Weekly_02_Buss_Kody */,
+				CBF050E71D76244400EE29C7 /* Weekly_02_Buss_KodyTests */,
+				CBF050F21D76244500EE29C7 /* Weekly_02_Buss_KodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF050D21D76244400EE29C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF050E21D76244400EE29C7 /* LaunchScreen.storyboard in Resources */,
+				CBF050DF1D76244400EE29C7 /* Assets.xcassets in Resources */,
+				CBF050DD1D76244400EE29C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050E61D76244400EE29C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050F11D76244500EE29C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF050D01D76244400EE29C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF050DA1D76244400EE29C7 /* ViewController.swift in Sources */,
+				CBF050D81D76244400EE29C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050E41D76244400EE29C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF050ED1D76244500EE29C7 /* Weekly_02_Buss_KodyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF050EF1D76244500EE29C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF050F81D76244500EE29C7 /* Weekly_02_Buss_KodyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF050EA1D76244400EE29C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF050D31D76244400EE29C7 /* Weekly_02_Buss_Kody */;
+			targetProxy = CBF050E91D76244400EE29C7 /* PBXContainerItemProxy */;
+		};
+		CBF050F51D76244500EE29C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF050D31D76244400EE29C7 /* Weekly_02_Buss_Kody */;
+			targetProxy = CBF050F41D76244500EE29C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF050DB1D76244400EE29C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF050DC1D76244400EE29C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF050E01D76244400EE29C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF050E11D76244400EE29C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF050FA1D76244500EE29C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF050FB1D76244500EE29C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF050FD1D76244500EE29C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weekly_02_Buss_Kody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-Kody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBF050FE1D76244500EE29C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weekly_02_Buss_Kody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-Kody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CBF051001D76244500EE29C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Weekly_02_Buss_KodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-KodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekly_02_Buss_Kody.app/Weekly_02_Buss_Kody";
+			};
+			name = Debug;
+		};
+		CBF051011D76244500EE29C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Weekly_02_Buss_KodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-KodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekly_02_Buss_Kody.app/Weekly_02_Buss_Kody";
+			};
+			name = Release;
+		};
+		CBF051031D76244500EE29C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Weekly_02_Buss_KodyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-KodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Weekly_02_Buss_Kody;
+			};
+			name = Debug;
+		};
+		CBF051041D76244500EE29C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Weekly_02_Buss_KodyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Weekly-02-Buss-KodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Weekly_02_Buss_Kody;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF050CF1D76244300EE29C7 /* Build configuration list for PBXProject "Weekly_02_Buss_Kody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF050FA1D76244500EE29C7 /* Debug */,
+				CBF050FB1D76244500EE29C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF050FC1D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_Kody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF050FD1D76244500EE29C7 /* Debug */,
+				CBF050FE1D76244500EE29C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF050FF1D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_KodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF051001D76244500EE29C7 /* Debug */,
+				CBF051011D76244500EE29C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF051021D76244500EE29C7 /* Build configuration list for PBXNativeTarget "Weekly_02_Buss_KodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF051031D76244500EE29C7 /* Debug */,
+				CBF051041D76244500EE29C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF050CC1D76244300EE29C7 /* Project object */;
+}
