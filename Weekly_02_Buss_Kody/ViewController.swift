@@ -19,7 +19,52 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet var totalBox: UITextField!
+    
+    @IBAction func key1(_ sender: AnyObject) {
+        
+    }
+    
+    @IBAction func key2(_ sender: AnyObject) {
+    }
 
+    @IBAction func key3(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key4(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key5(_ sender: AnyObject) {
+    }
 
+    @IBAction func key6(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key7(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key8(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key9(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key10(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key11(_ sender: AnyObject) {
+    }
+    
+    @IBAction func key12(_ sender: AnyObject) {
+    }
+    
+    @IBAction func undoBttn(_ sender: AnyObject) {
+    }
+    
+    @IBAction func clearBttn(_ sender: AnyObject) {
+    }
+    
+    
 }
 
