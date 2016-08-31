@@ -21,12 +21,10 @@ class ViewController: UIViewController {
     }
     
     //VARIABLES
-    var result = 0
-    //var itemNum = 0
+    var result = 0 //holds answer that will appear in the totalBox on UI
     
-    var keyQueue : [Int] = [0]
-    //var keyInput : [Int] = [0]
-    var keyNum : [Int] = [0, 1, 2, 3, 4,
+    var keyQueue : [Int] = [0] //dynamically changes to append values to a queue
+    var keyNum : [Int] = [0, 1, 2, 3, 4, //container for all the values possible
                           5, 6, 7, 8, 9,
                           10, 11, 12]
     
@@ -37,9 +35,14 @@ class ViewController: UIViewController {
     //FUNCTIONS
     func calcResult(keyQueue: [Int]) -> Int {
         var answer = 0
-        for number in keyQueue{
+        
+        for (index, number) in keyQueue.enumerated(){//must use this kind of for loop when looping through indices
+            print(keyQueue[index])
+        }
+        
+        for (index, number) in keyQueue.enumerated(){//^same as above
             
-            answer += keyQueue[number]
+                answer += keyQueue[index]//adds up all the values in the array
         }
         return answer
     }
@@ -49,7 +52,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[1])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     
     }
@@ -57,7 +59,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[2])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
 
@@ -65,23 +66,20 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[3])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
     @IBAction func key4(_ sender: AnyObject) {
-        keyQueue.append(keyNum[4])
+        keyQueue.append(4)
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
     @IBAction func key5(_ sender: AnyObject) {
-        keyQueue.append(keyNum[5])
+        keyQueue.append(5)
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
 
@@ -89,7 +87,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[6])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -97,7 +94,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[7])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -105,7 +101,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[8])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -113,7 +108,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[9])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -121,7 +115,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[10])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -129,7 +122,6 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[11])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
@@ -137,14 +129,27 @@ class ViewController: UIViewController {
         keyQueue.append(keyNum[12])
         
         result = calcResult(keyQueue: keyQueue)
-        
         totalBox.text = String(result);
     }
     
     @IBAction func undoBttn(_ sender: AnyObject) {
+        
+        if(keyQueue.count > 1){
+        
+            keyQueue.removeLast()//removes last queued item
+            result = calcResult(keyQueue: keyQueue)//recalculates without the just removed value
+            totalBox.text = String(result);
+        }
     }
     
     @IBAction func clearBttn(_ sender: AnyObject) {
+
+            keyQueue.removeAll() // removes all data and slots from the stack
+            keyQueue.append(0)// makes sure there is always a default value of zero when nothing is added to the stack
+        
+            result = calcResult(keyQueue: keyQueue)//recalculates to prove data is gone
+            totalBox.text = String(result);
+        
     }
     
     
