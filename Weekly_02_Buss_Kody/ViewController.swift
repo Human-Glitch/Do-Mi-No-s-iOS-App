@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    //Draw Text Graphics
+    
+    
     
     //VARIABLES
     var result = 0 //holds answer that will appear in the totalBox on UI
@@ -151,6 +154,8 @@ class ViewController: UIViewController {
             totalBox.text = String(result);
         
     }
+    
+    
     
     
 }
