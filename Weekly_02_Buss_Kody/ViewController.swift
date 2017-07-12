@@ -19,7 +19,28 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    //Draw Text Graphics
+    
+    //Draw Graphics
+    func drawText() {
+        // 1
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 512, height: 512), false, 0)
+        
+        // 2
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = .center
+        
+        // 3
+        let attrs = [
+            NSFontAttributeName: UIFont(name: "HelveticaNeue-Thin", size: 58)!,
+            NSParagraphStyleAttributeName: paragraphStyle
+        ]
+        
+        // 4
+        let string: NSString = "Do Mi No's"
+        string.draw(with: CGRect(x: 32, y: 32, width: 448, height: 448), options: .usesLineFragmentOrigin, attributes: attrs, context: nil)
+        
+    }
+    
     
     
     
@@ -56,6 +77,8 @@ class ViewController: UIViewController {
         
         result = calcResult(keyQueue: keyQueue)
         totalBox.text = String(result);
+        
+        drawText();
     
     }
     @IBAction func key2(_ sender: AnyObject) {

@@ -98,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77B-VM-PhY" userLabel="clearBttn">
-                                <frame key="frameInset" minX="210" minY="507" width="64" height="41"/>
+                                <frame key="frameInset" minX="205" minY="351" width="64" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <state key="normal" title="Clear">
@@ -109,7 +109,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xod-qy-Jns" userLabel="undoBttn">
-                                <frame key="frameInset" minX="49" minY="507" width="63" height="41"/>
+                                <frame key="frameInset" minX="59" minY="351" width="63" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <state key="normal" title="Undo">
@@ -155,6 +155,17 @@
                                     <action selector="key12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVx-Dq-xzB"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UserPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="lX7-kv-59j">
+                                <frame key="frameInset" minX="86" minY="411" width="148" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do Mi No's" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUb-FU-3Tz">
+                                <frame key="frameInset" minX="103" minY="527" width="115" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -168,6 +179,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="UserPhoto.png" width="744" height="786"/>
         <image name="dom1.png" width="640" height="640"/>
         <image name="dom10.png" width="640" height="640"/>
         <image name="dom11.png" width="640" height="640"/>

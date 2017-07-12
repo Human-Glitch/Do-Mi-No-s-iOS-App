@@ -26,6 +26,8 @@
 		CBF693041D7F84AC00F64BCC /* dom10.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF692FA1D7F84AC00F64BCC /* dom10.png */; };
 		CBF693051D7F84AC00F64BCC /* dom11.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF692FB1D7F84AC00F64BCC /* dom11.png */; };
 		CBF693061D7F84AC00F64BCC /* dom12.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF692FC1D7F84AC00F64BCC /* dom12.png */; };
+		CBF693081D7FB9F300F64BCC /* UserPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF693071D7FB9F300F64BCC /* UserPhoto.png */; };
+		CBF6930A1D7FBF3A00F64BCC /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF693091D7FBF3A00F64BCC /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		CBF692FA1D7F84AC00F64BCC /* dom10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dom10.png; sourceTree = "<group>"; };
 		CBF692FB1D7F84AC00F64BCC /* dom11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dom11.png; sourceTree = "<group>"; };
 		CBF692FC1D7F84AC00F64BCC /* dom12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dom12.png; sourceTree = "<group>"; };
+		CBF693071D7FB9F300F64BCC /* UserPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserPhoto.png; sourceTree = "<group>"; };
+		CBF693091D7FBF3A00F64BCC /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		CBF050CB1D76244300EE29C7 = {
 			isa = PBXGroup;
 			children = (
+				CBF693091D7FBF3A00F64BCC /* MyView.swift */,
 				CBF692EC1D7F62F000F64BCC /* Images */,
 				CBF050D61D76244400EE29C7 /* Weekly_02_Buss_Kody */,
 				CBF050EB1D76244500EE29C7 /* Weekly_02_Buss_KodyTests */,
@@ -153,6 +158,7 @@
 		CBF692EC1D7F62F000F64BCC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CBF693071D7FB9F300F64BCC /* UserPhoto.png */,
 				CBF692EF1D7F848500F64BCC /* dom1.png */,
 				CBF692F11D7F848C00F64BCC /* dom2.png */,
 				CBF692F31D7F84AC00F64BCC /* dom3.png */,
@@ -291,6 +297,7 @@
 				CBF050DF1D76244400EE29C7 /* Assets.xcassets in Resources */,
 				CBF693041D7F84AC00F64BCC /* dom10.png in Resources */,
 				CBF050DD1D76244400EE29C7 /* Main.storyboard in Resources */,
+				CBF693081D7FB9F300F64BCC /* UserPhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF6930A1D7FBF3A00F64BCC /* MyView.swift in Sources */,
 				CBF050DA1D76244400EE29C7 /* ViewController.swift in Sources */,
 				CBF050D81D76244400EE29C7 /* AppDelegate.swift in Sources */,
 			);
